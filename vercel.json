@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "lumina-skincare",
+  "rootDirectory": "lumina-skincare-frontend",
+  "buildCommand": "cd lumina-skincare-frontend && npm run build",
+  "outputDirectory": "lumina-skincare-frontend/dist",
+  "installCommand": "cd lumina-skincare-frontend && npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
